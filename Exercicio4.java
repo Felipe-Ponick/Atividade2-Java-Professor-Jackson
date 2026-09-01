@@ -53,7 +53,7 @@ public class Exercicio4
                         System.out.println("Informe qual produto você deseja remover:");
                         removerProduto = entrada.next(); 
                         listaCompras.remove(removerProduto);  
-                        break;
+                        break;  
 
                     case 3:
                         System.out.println("Os produtos listados no momento são: " + listaCompras);
